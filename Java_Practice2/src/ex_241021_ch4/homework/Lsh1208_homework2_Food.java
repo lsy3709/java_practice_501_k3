@@ -22,7 +22,7 @@ class Food {
 		System.out.println();
 	}
 
-	void randomFoods(Food[] foods) {
+	static void randomFoods(Food[] foods) {
 		Random random = new Random();
 		int randomIndex = random.nextInt(foods.length);
 		System.out.println("랜덤하게 선택된 음식:");
@@ -38,6 +38,6 @@ public class Lsh1208_homework2_Food {
 		Food lshFood3 = new Food("스파게티", 8500, new String[] { "면", "소스", "고기" });
 		lshFood1.introduceFoods();
 
-		lshFood1.randomFoods(new Food[] { lshFood1, lshFood2, lshFood3 });
+		Food.randomFoods(new Food[] { lshFood1, lshFood2, lshFood3 });
 	}
 }
