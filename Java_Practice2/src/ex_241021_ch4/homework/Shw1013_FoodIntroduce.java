@@ -6,9 +6,12 @@ public class Shw1013_FoodIntroduce {
 
     public static void main(String[] args) {
         // Food 객체 3개 생성
-        Shw1013_Food food1 = new Shw1013_Food("돼지국밥", 9000, new String[]{"돼지고기", "밥", "국수"});
-        Shw1013_Food food2 = new Shw1013_Food("비빔밥", 8000, new String[]{"쌀밥", "채소", "고추장", "계란"});
-        Shw1013_Food food3 = new Shw1013_Food("짜장면", 7000, new String[]{"짜장소스", "면", "계란"});
+    	String[] Materials1 = {"돼지고기", "밥", "국수"};
+    	String[] Materials2 = {"쌀밥", "채소", "고추장"};
+    	String[] Materials3 = {"짜장소스", "면", "계란"};
+        Shw1013_Food food1 = new Shw1013_Food("돼지국밥", 9000, Materials1);
+        Shw1013_Food food2 = new Shw1013_Food("비빔밥", 8000, Materials2);
+        Shw1013_Food food3 = new Shw1013_Food("짜장면", 7000, Materials3);
 
         // Food 객체 3개를 담는 배열
         Shw1013_Food[] foods = {food1, food2, food3};

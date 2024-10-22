@@ -1,7 +1,7 @@
 package ex_241021_ch4.homework;
 
 public class Shw1013_Food {
-    // 속성 정의
+    //  속성 정의
     private String name;
     private int price;
     private String[] material;
