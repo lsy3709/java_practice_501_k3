@@ -21,7 +21,7 @@ public class Shw1013_FoodIntroduce {
         System.out.println("오늘의 추천 음식:");
         randomFood.introduce();
     }
-
+//Test
     // 랜덤 음식 추천 기능
     public static Shw1013_Food getRandomFood(Shw1013_Food[] foods) {
         Random random = new Random();
