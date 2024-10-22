@@ -26,5 +26,6 @@ public class Shw1013_Food {
             }
         }
         System.out.println();
+        //숙제 제출
     }
 }
