@@ -13,13 +13,13 @@ public class Kjh0313_child extends Kjh0313_parents {
 	}
 
 	public void introduce(String gb[]) {
-		System.out.println("핸드폰 기종: " + super.name + "\n가격: " + super.price);
-		System.out.print("색상: ");
+		System.out.println("역할군: " + super.name + "\n최종DPS(단일기준): " + super.price);
+		System.out.print("포지션: ");
 		for (int i = 0; i < super.color.length; i++) {
 			System.out.print(color[i] + " ");
 		}
 		System.out.println();
-		System.out.print("용량: ");
+		System.out.print("사거리: ");
 		for (int i = 0; i < gb.length; i++) {
 			System.out.print(gb[i] + " ");
 		}
